@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_document_page_tag_form" model="ir.ui.view">
+        <field name="model">document.page.tag</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <field name="name"/>
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_document_page_tag_tree" model="ir.ui.view">
+        <field name="name">document.page.tag.tree</field>
+        <field name="model">document.page.tag</field>
+        <field name="arch" type="xml">
+            <tree string="Document Tag">
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+    <record id="action_document_page_tag" model="ir.actions.act_window">
+        <field name="name">Tags</field>
+        <field name="res_model">document.page</field>
+        <field name="view_mode">tree,form</field>
+        <field name="view_id" ref="view_document_page_tag_tree" />
+    </record>
+
+    <menuitem
+        id="menu_document_page_tag"
+        name="Tags"
+        parent="knowledge.menu_document_configuration"
+        action="action_document_page_tag"
+        sequence="20"
+    />
+</odoo>
