@@ -6,7 +6,7 @@ from odoo import api, models, fields
 
 class DocumentPageTag(models.Model):
     _name = 'document.page.tag'
-    _description = 'A keyword for document pages'
+    _description = 'Tags for document pages'
 
     name = fields.Char(required=True, translate=True)
 

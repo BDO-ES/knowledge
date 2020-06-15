@@ -7,4 +7,4 @@ from odoo import models, fields
 class DocumentPage(models.Model):
     _inherit = 'document.page'
 
-    tag_ids = fields.Many2many('document.page.tag', string='Keywords')
+    tag_ids = fields.Many2many('document.page.tag', string='Tags')

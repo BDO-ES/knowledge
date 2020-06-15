@@ -22,7 +22,7 @@
     </record>
     <record id="action_document_page_tag" model="ir.actions.act_window">
         <field name="name">Tags</field>
-        <field name="res_model">document.page</field>
+        <field name="res_model">document.page.tag</field>
         <field name="view_mode">tree,form</field>
         <field name="view_id" ref="view_document_page_tag_tree" />
     </record>
