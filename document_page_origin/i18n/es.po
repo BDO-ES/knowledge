@@ -15,8 +15,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#. module: document_page_partner_id
-#: model:ir.model.fields,field_description:document_page_partner_id.field_document_page__origin
-#: model_terms:ir.ui.view,arch_db:document_page_partner_id.view_wiki_filter
+#. module: document_page_origin
+#: model:ir.model.fields,field_description:document_page_origin.field_document_page__origin
+#: model_terms:ir.ui.view,arch_db:document_page_origin.view_wiki_filter
 msgid "Origin"
 msgstr "Origen"
