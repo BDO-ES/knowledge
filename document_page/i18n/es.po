@@ -140,7 +140,7 @@ msgstr "Creado el"
 #. module: document_page
 #: model:ir.model.fields,help:document_page.field_document_page__draft_summary
 msgid "Describe the changes made"
-msgstr ""
+msgstr "Describa los cambios realizados"
 
 #. module: document_page
 #: model:ir.model.fields,field_description:document_page.field_document_page_history__diff
@@ -254,8 +254,7 @@ msgstr ""
 #. module: document_page
 #: model:ir.model.fields,help:document_page.field_document_page__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr "
-Icono para indicar una actividad de excepción"
+msgstr "Icono para indicar una actividad de excepción"
 
 #. module: document_page
 #: model:ir.model.fields,help:document_page.field_document_page__message_needaction
