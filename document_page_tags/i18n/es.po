@@ -18,17 +18,17 @@ msgstr ""
 #. module: document_page_tags
 #: model:ir.model.fields,field_description:document_page_tags.field_document_page_tag__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Creado por"
 
 #. module: document_page_tags
 #: model:ir.model.fields,field_description:document_page_tags.field_document_page_tag__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Creado el"
 
 #. module: document_page_tags
 #: model:ir.model.fields,field_description:document_page_tags.field_document_page_tag__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Nombre a mostrar"
 
 #. module: document_page_tags
 #: model:ir.model,name:document_page_tags.model_document_page
@@ -38,7 +38,7 @@ msgstr "Página del documento"
 #. module: document_page_tags
 #: model_terms:ir.ui.view,arch_db:document_page_tags.view_document_page_tag_tree
 msgid "Document Tag"
-msgstr ""
+msgstr "Etiqueta"
 
 #. module: document_page_tags
 #: model:ir.model.fields,field_description:document_page_tags.field_document_page_tag__id
@@ -48,7 +48,7 @@ msgstr ""
 #. module: document_page_tags
 #: model:ir.model.fields,field_description:document_page_tags.field_document_page__tag_ids
 msgid "Keywords"
-msgstr ""
+msgstr "Etiquetas"
 
 #. module: document_page_tags
 #: model:ir.model.fields,field_description:document_page_tags.field_document_page_tag____last_update

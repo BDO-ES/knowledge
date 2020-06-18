@@ -14,7 +14,7 @@
             <field name="model">document.page</field>
             <field name="inherit_id" ref="document_page.view_wiki_tree" />
             <field name="arch" type="xml">
-                <field name="parent_id" position="after">
+                <field name="company_id" position="before">
                     <field name="partner_id" />
                 </field>
             </field>
