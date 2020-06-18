@@ -475,10 +475,10 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"Estado basado en actividades \n"
-"Atrasado: la fecha de vencimiento ya pasó \n"
-"Hoy: la fecha de la actividad es hoy \n"
-"Planificado: actividades futuras".
+"Estado basado en actividades\n"
+"Atrasado: la fecha de vencimiento ya pasó\n"
+"Hoy: la fecha de la actividad es hoy\n"
+"Planificado: actividades futuras."
 
 #. module: document_page
 #: model:ir.model.fields,field_description:document_page.field_document_page__draft_summary
